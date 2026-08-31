@@ -1,6 +1,3 @@
-// Comment บรรทัดที่ 1: ใช้ switch-case คำนวณราคาเมนู โดยใช้ fall-through รวมเมนูราคาเท่ากัน (50 บาท)
-// Comment บรรทัดที่ 2: คำนวณราคาออเดอร์โดยคูณตัวคูณขนาดและจำนวน พร้อมมีระบบ default รองรับเมนูที่ไม่มีในรายการ
-
 function getMenuPrice(menu) {
   switch (menu) {
     case "ต้มยำกุ้ง":
